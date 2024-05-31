@@ -13,8 +13,8 @@ function FrmEquacaoSegundoGrau() {
     const handleSubmit = (event) => {
       // Impede o recarregamento da página
       event.preventDefault();      
-      //Endereço da API + operação + valorA + valorB
-      fetch(`http://localhost:8000/raizes/${valorA}/${valorB}/${valorC}`)
+      //Endereço da API + "/raizes" + "/" + valorA + "/" + valorB + "/" + valorC
+      fetch(`https://equacaosegundograu-nodejs-vercel.vercel.app/raizes/${valorA}/${valorB}/${valorC}`)
         .then((response) => response.json()) //Converte a resposta para JSON
         .then((data) => setResultado(data)) // Atribui o resultado a x1
     }
