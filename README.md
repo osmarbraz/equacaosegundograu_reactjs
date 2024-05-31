@@ -1,7 +1,7 @@
-# Programa cliente da API de cálculo de equação do segundo grau utilizando React.js no Vercel.
+# Programa cliente da API de cálculo de equação do segundo grau utilizando React.js.
 
-- O projeto foi desenvolvido no VSCode deve ser chamado "equacaosegundograu_reactjs_vercel".
-- Programa servidor está no projeto "equacaosegundograu_nodejs_vercel".
+- O projeto foi desenvolvido no VSCode deve ser chamado "equacaosegundograu_reactjs".
+- Programa servidor está no projeto "equacaosegundograu_nodejs".
 - Programa cliente web utiliza a porta 3000.
 
 - Execução:    
@@ -14,6 +14,3 @@
 
 - Arquivos em src:
    - App.js - Interface do programa.
-
-- Vercel
-   https://equacaosegundograu-reactjs-vercel.vercel.app/   
