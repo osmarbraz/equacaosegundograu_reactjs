@@ -4,11 +4,12 @@
 
 - O projeto foi desenvolvido no VSCode deve ser chamado "equacaosegundograu_reactjs".
 - Programa servidor está no projeto "equacaosegundograu_nodejs".
-- Programa cliente web utiliza a porta 3000.
+- Programa cliente web utiliza a porta 5173.
+- A pasta src contêm os fontes do projeto.
 
 ## Execução
 
-   <pre><code>npm start</code></pre>
+   <pre><code>npm run dev</code></pre>
 
 ## Atualização
 
@@ -17,4 +18,4 @@
 
 ## Arquivos de projeto em src:
 
-   - App.js - Interface do programa.
+   - App.jsx - Interface do programa.
